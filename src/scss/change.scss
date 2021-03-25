@@ -67,7 +67,7 @@
     overflow: hidden;
     padding: 44px 0px 44px 200px;
     @include respond-below(lg) {
-      top: 165px;
+      top: 135px;
       height: 600px;
     }
     @include respond-below(md_plus) {
@@ -78,7 +78,7 @@
     }
   }
   .tablet-swiper-container {
-    border: solid $color-black;
+    border: solid $color-lightblack;
     border-width: 3px 0px 3px 3px;
     border-radius: 4px;
     height: 100%;

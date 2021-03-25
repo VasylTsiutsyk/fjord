@@ -5,10 +5,13 @@
 }
 
 body {
-  background-color: #f5f6f8;
+  background-color: $color-lightgrey;
   background-image: url('../img/mountains.png');
   background-repeat: no-repeat;
   background-position: center bottom;
+  &.lock {
+    overflow: hidden;
+  }
 }
 
 .remark {
@@ -36,7 +39,7 @@ p {
   padding: 20px 45px;
   border-radius: 25px;
   background-color: $color-lightblue;
-  color: #000000;
+  color: $color-black;
   font-family: $ff-base;
   font-size: 12px;
   font-weight: 300;

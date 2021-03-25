@@ -15,7 +15,7 @@
     padding: 45px 35px;
     text-align: center;
     transition: $transition-base;
-    background-color: #f5f6f8;
+    background-color: $color-lightgrey;
     @include respond-below(md_plus) {
       flex: 0 0 calc(100% / 2 - 24px);
       padding: 30px 20px;
@@ -29,13 +29,16 @@
       margin-bottom: 0;
     }
     &:hover {
-      background-color: #000000;
+      background-color: $color-black;
       .plan__type,
       .plan__rate {
         color: $color-white;
       }
       a {
         background-color: #26e6e6;
+        &:hover {
+          background-color: $color-lightblue-hover;
+        }
       }
     }
   }
@@ -46,7 +49,7 @@
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    color: #000000;
+    color: $color-black;
   }
   &__rate {
     margin-bottom: 30px;
@@ -54,7 +57,7 @@
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #000000;
+    color: $color-black;
   }
   p {
     flex: 1 1 auto;

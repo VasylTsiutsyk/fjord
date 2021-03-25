@@ -148,7 +148,7 @@
     }
     h3 {
       margin-bottom: 20px;
-      color: $color-black;
+      color: $color-lightblack;
       font-family: $ff-base;
       font-size: 18px;
       font-weight: 300;
@@ -163,7 +163,7 @@
     padding: 25px;
     width: 100%;
     border-radius: 0 0 2px 2px;
-    background-color: #000000;
+    background-color: $color-black;
     color: #fffefe;
     font-family: $ff-base;
     font-size: 12px;
@@ -171,5 +171,9 @@
     text-transform: uppercase;
     letter-spacing: 0.6px;
     text-align: center;
+    transition: $transition-base;
+    &:hover {
+      background-color: $color-black-hover;
+    }
   }
 }
