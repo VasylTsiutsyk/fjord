@@ -920,9 +920,9 @@ body.touch .menu__arrow {
 .testimonials__slide p {
   margin-bottom: 20px;
   color: #232323;
-  font-family: 'Montserrat - Hairline';
+  font-family: "Montserrat", "sans-serif";
   font-size: 42px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -1528,7 +1528,7 @@ body.touch .menu__arrow {
   }
 
   .change__wrap {
-    margin: 0 0 450px;
+    margin: 0 0 400px;
     padding: 40px 20px;
   }
 
@@ -1605,6 +1605,10 @@ body.touch .menu__arrow {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+
+  .change__wrap {
+    margin: 0 0 200px;
   }
 
   .change__title {

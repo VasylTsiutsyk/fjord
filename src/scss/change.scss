@@ -5,8 +5,11 @@
     margin: 0 110px 450px;
     padding: 130px;
     @include respond-below(lg) {
-      margin: 0 0 450px;
+      margin: 0 0 400px;
       padding: 40px 20px;
+    }
+    @include respond-below(md_plus) {
+      margin: 0 0 200px;
     }
     @include respond-below(md) {
       margin: 0;
