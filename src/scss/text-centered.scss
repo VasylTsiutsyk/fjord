@@ -1,0 +1,36 @@
+.text-centered {
+  background-color: $color-white;
+  &__wrap {
+    padding: 100px 0;
+    text-align: center;
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    margin-bottom: 44px;
+    font-family: $ff-base;
+    font-size: 72px;
+    font-weight: 300;
+    color: $color-black;
+    letter-spacing: -3px;
+    @include respond-below(md) {
+      font-size: 60px;
+    }
+    @include respond-below(sm) {
+      font-size: 50px;
+    }
+    @include respond-below(xs) {
+      font-size: 40px;
+    }
+  }
+  p {
+    max-width: 440px;
+    margin: 0 auto;
+    font-family: $ff-base;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: $color-black;
+  }
+}
